@@ -25,6 +25,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import ViewMeal from "./pages/ViewMeal";
 
 const App: React.FC = () => (
   <IonApp>
@@ -34,6 +35,7 @@ const App: React.FC = () => (
         <Route path="/home" component={Home} exact={true} />
         <Route path="/register" component={Register} exact={true} />
         <Route path="/log-food" component={LogFood} exact={true} />
+          <Route path="/view-meal" component={ViewMeal} exact={true} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

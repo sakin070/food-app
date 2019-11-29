@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
 
           {items.map((foodInfo, i) => (
-              <IonItem>
+              <IonItem href="/view-meal">
                   <IonAvatar slot="start">
                       <img src={foodInfo.image} />
                   </IonAvatar>
